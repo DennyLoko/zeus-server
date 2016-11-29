@@ -14,6 +14,7 @@ type Char struct {
 	JobLevel  uint
 	BaseExp   uint
 	JobExp    uint
+	Money     uint
 	Coin      uint
 	HP        uint
 	MaxHP     uint

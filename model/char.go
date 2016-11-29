@@ -5,7 +5,7 @@ type Char struct {
 	Account   Account
 	AccountID uint `gorm:"index"`
 	Slot      uint
-	Nick      string `gorm:"type:varchar(30);no null;unique"`
+	Nick      string `gorm:"type:varchar(30);not null;unique"`
 	Gender    Gender
 	Class     Class
 	ClassID   uint
